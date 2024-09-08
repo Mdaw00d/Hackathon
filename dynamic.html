@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Resume</title>
+    <link rel="stylesheet" href="style3.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+         
+            <a href="#" class="logo" style="font-size: 30px;font-weight: bold;">ProFile</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="static.html">Static Resume</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <a href="dynamic.html" class="create-btn">Create Resume</a>
+      </nav>
+      <!-- navbar ends here -->
+       <h1 class="head-hero">"Complete the form below with your details to instantly create a personalized professional resume."</h1>
+       <p class="sub-hero">We suggest including an email and phone number.</p>
+       <!-- form starts here -->
+       <p style="margin: 50px;"><small><span style="color: red;">*</span> indicates a required field</small></p>
+      <div class="form-div">
+        <h1 style="font-size:40px; font-weight:lighter; margin-bottom:20px;">Personal Information</h1>
+       <form>
+       
+
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Dawood">
+        </div>
+
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" placeholder="Butt">
+        </div>
+
+        <div class="form-group">
+            <label for="profession">Profession</label>
+            <input type="text" id="profession" placeholder="Web Developer">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City - State</label>
+            <input type="text" id="city" placeholder="Karachi, Sindh">
+        </div>
+
+        <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Pakistan">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="+92 1234567891">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="qwerty@gmail.com" required>
+        </div>
+        
+    </form>
+   
+    <h1 style="font-size:40px; font-weight:lighter; margin-bottom:20px; margin-top:70px;">Work History</h1>
+    
+    <!-- Work history -->
+    <form>
+       
+<!-- title -->
+      <div class="form-group">
+          <label for="job-title">Job Title *</label>
+          <input type="text" id="job-title" placeholder="e.g. Sr. Developer">
+      </div>
+<!-- company -->
+      <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" placeholder="e.g. Amazon">
+      </div>
+<!-- job description -->
+      <div class="form-group">
+        <label for="job-description">Job Description</label>
+        <input type="text" id="job-desc" placeholder="Type your achievements and responsibilities here">
+    </div>
+
+<!-- Location -->
+
+      <div class="form-group">
+          <label for="location">Location</label>
+          <select id="job-location">
+            <option style="color: #ccc;" disabled selected hidden>Select an option</option>
+            <option value="remote">Remote</option>
+            <option value="onsite">Onsite</option>
+          </select>
+
+          <!-- start date -->
+
+          <div style="margin: 20px;" class="form-group">
+            <label for="location">Start Date</label>
+            <select id="start-month">
+              <option style="color: #ccc;" disabled selected hidden>Month</option>
+              <option value="remote">January</option>
+              <option value="remote">Febuary</option>
+              <option value="remote">March</option>
+              <option value="remote">April</option>
+              <option value="remote">May</option>
+              <option value="remote">June</option>
+              <option value="remote">July</option>
+              <option value="remote">August</option>
+              <option value="remote">September</option>
+              <option value="remote">October</option>
+              <option value="remote">November</option>
+              <option value="remote">December</option>
+            </select>
+            
+            <select style="margin-top:20px;" id="start-year">
+              <option style="color: #ccc; " disabled selected hidden>Year</option>
+              <option value="remote">1995</option>
+              <option value="remote">1996</option>
+              <option value="remote">1997</option>
+              <option value="remote">1998</option>
+              <option value="remote">1999</option>
+              <option value="remote">2000</option>
+              <option value="remote">2001</option>
+              <option value="remote">2002</option>
+              <option value="remote">2003</option>
+              <option value="remote">2004</option>
+              <option value="remote">2005</option>
+              <option value="remote">2006</option>
+              <option value="remote">2007</option>
+              <option value="remote">2008</option>
+              <option value="remote">2009</option>
+              <option value="remote">2010</option>
+              <option value="remote">2011</option>
+              <option value="remote">2012</option>
+              <option value="remote">2013</option>
+              <option value="remote">2014</option>
+              <option value="remote">2015</option>
+              <option value="remote">2016</option>
+              <option value="remote">2017</option>
+              <option value="remote">2018</option>
+              <option value="remote">2019</option>
+              <option value="remote">2020</option>
+              <option value="remote">2021</option>
+              <option value="remote">2022</option>
+              <option value="remote">2023</option>
+              <option value="remote">2024</option>
+            </select>
+
+            
+<!-- End date -->
+            
+        </div>
+        <div style="margin: 20px;" class="form-group">
+          <label for="location">End Date</label>
+          <select id="end-month">
+            <option style="color: #ccc;" disabled selected hidden>Month</option>
+            <option value="remote">January</option>
+            <option value="remote">Febuary</option>
+            <option value="remote">March</option>
+            <option value="remote">April</option>
+            <option value="remote">May</option>
+            <option value="remote">June</option>
+            <option value="remote">July</option>
+            <option value="remote">August</option>
+            <option value="remote">September</option>
+            <option value="remote">October</option>
+            <option value="remote">November</option>
+            <option value="remote">December</option>
+            <option value="remote">I currently work here</option>
+          </select>
+          
+          <select style="margin-top:20px;" id="end-year">
+            <option style="color: #ccc; " disabled selected hidden>Year</option>
+            <option value="remote">1995</option>
+            <option value="remote">1996</option>
+            <option value="remote">1997</option>
+            <option value="remote">1998</option>
+            <option value="remote">1999</option>
+            <option value="remote">2000</option>
+            <option value="remote">2001</option>
+            <option value="remote">2002</option>
+            <option value="remote">2003</option>
+            <option value="remote">2004</option>
+            <option value="remote">2005</option>
+            <option value="remote">2006</option>
+            <option value="remote">2007</option>
+            <option value="remote">2008</option>
+            <option value="remote">2009</option>
+            <option value="remote">2010</option>
+            <option value="remote">2011</option>
+            <option value="remote">2012</option>
+            <option value="remote">2013</option>
+            <option value="remote">2014</option>
+            <option value="remote">2015</option>
+            <option value="remote">2016</option>
+            <option value="remote">2017</option>
+            <option value="remote">2018</option>
+            <option value="remote">2019</option>
+            <option value="remote">2020</option>
+            <option value="remote">2021</option>
+            <option value="remote">2022</option>
+            <option value="remote">2023</option>
+            <option value="remote">2024</option>
+            <option value="remote">I currently work here</option>
+          </select>
+      </div>
+    
+      
+      
+  </form>
+
+  
+  </div>  
+
+ <!-- education -->
+      
+  <h1 style="font-size:40px; font-weight:lighter; margin-bottom:20px;">Education</h1>
+  <form>
+  
+
+   <div class="form-group">
+    <label for="location">Level Of Education</label>
+    <select  id="education-level">
+      <option style="color: #ccc; " disabled selected hidden>Please Select</option>
+      <option value="remote">High School Diploma</option>
+      <option value="remote">Logic Building </option>
+      <option value="remote">Related Courses</option>
+      <option value="remote">Certificates/Diplomas</option>
+      <option value="remote">Web Developer</option>
+      <option value="remote">Bachelors</option>
+      <option value="remote">Masters</option>
+      <option value="remote">P.hD</option>
+
+    </select>
+   </div>
+   
+   
+
+   <div class="form-group">
+       <label for="institute">Institue Name</label>
+       <input type="text" id="institute" placeholder="e.g. Oxford">
+   </div>
+
+   <div class="form-group">
+       <label for="field-of-study"">Field Of Study</label>
+       <input type="text" id="field-of-study" placeholder="e.g. Computer Science">
+   </div>
+
+   <div class="form-group">
+    <label for="location">Expected Completion</label>
+    <select id="completion-year">
+      <option style="color: #ccc;" disabled selected hidden>Year</option>
+      <option value="remote">1995</option>
+      <option value="remote">1996</option>
+      <option value="remote">1997</option>
+      <option value="remote">1998</option>
+      <option value="remote">1999</option>
+      <option value="remote">2000</option>
+      <option value="remote">2001</option>
+      <option value="remote">2002</option>
+      <option value="remote">2003</option>
+      <option value="remote">2004</option>
+      <option value="remote">2005</option>
+      <option value="remote">2006</option>
+      <option value="remote">2007</option>
+      <option value="remote">2008</option>
+      <option value="remote">2009</option>
+      <option value="remote">2010</option>
+      <option value="remote">2011</option>
+      <option value="remote">2012</option>
+      <option value="remote">2013</option>
+      <option value="remote">2014</option>
+      <option value="remote">2015</option>
+      <option value="remote">2016</option>
+      <option value="remote">2017</option>
+      <option value="remote">2018</option>
+      <option value="remote">2019</option>
+      <option value="remote">2020</option>
+      <option value="remote">2021</option>
+      <option value="remote">2022</option>
+      <option value="remote">2023</option>
+      <option value="remote">2024</option>
+      <option value="remote">I currently work here</option>
+    </select>
+</div>
+  
+
+ 
+   
+</form> 
+
+<!-- Skills -->
+<h1 style="font-size:40px; font-weight:lighter; margin-bottom:20px; margin-top:20px;">Skills</h1>
+  <form>
+    <div style="line-height: 1.5; " class="form-group">
+      <label><input type="checkbox" name="skills" value="UI/UX"> Logic Building</label>
+      <label><input type="checkbox" name="skills" value="Back-end"> Back-end </label>
+      <label><input type="checkbox" name="skills" value="javascript"> Communication</label>
+      <label><input type="checkbox" name="skills" value="typescript"> Problem Solving</label>
+      <label><input type="checkbox" name="skills" value="react"> Machine Learning</label>
+      <label><input type="checkbox" name="skills" value="nodejs">Computer Literacy</label>
+      <label><input type="checkbox" name="skills"value="nodejs">Analytical</label>
+      <label><input type="checkbox" name="skills" value="nodejs">Front-end</label>
+  
+    </div>
+  </form>
+  <button class="btn-next">Generate Resume</button>
+  <script src="index.js"></script>
+</body>
+</html>
